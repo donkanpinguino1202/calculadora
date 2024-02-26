@@ -43,6 +43,16 @@ function calculadora() {
   let number1 = parseFloat(prompt(" ingrese el primer numero"));
   let number2 = parseFloat(prompt(" ingrese el segundo numero"));
   dividir(num1, num2);
+
+  function factorial(numer) {
+    if (n == 0 && n  == 1){
+        return 1
+    }else{
+        return n * factorial (n - 1);
+    }
+  }
+  let resultado = factorial (10);
+  console.log (resultado); 
   
   // Llamar a la función principal
   calculadora();
