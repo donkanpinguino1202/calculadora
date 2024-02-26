@@ -27,9 +27,17 @@ function calculadora() {
   let num1 = parseFloat(prompt(" ingrese el primer numero"));
   let num2 = parseFloat(prompt(" ingrese el segundo numero"));
   resta(num1, num2);
+  
+  function multiplicar(numer1, numer2) {
+    let multiplicar = numer1 - numer2;
+    console.log(multiplicar);
+  }
+  let numer1 = parseFloat(prompt(" ingrese el primer numero"));
+  let numer2 = parseFloat(prompt(" ingrese el segundo numero"));
+  multiplicar(num1, num2);
+  
   // Llamar a la función principal
   calculadora();
-
   // Función para sumar dos números
 function sumar(num1, num2) {
     return num1 + num2;
