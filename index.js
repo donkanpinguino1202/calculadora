@@ -35,6 +35,14 @@ function calculadora() {
   let numer1 = parseFloat(prompt(" ingrese el primer numero"));
   let numer2 = parseFloat(prompt(" ingrese el segundo numero"));
   multiplicar(num1, num2);
+
+  function dividir(numer1, numer2) {
+    let dividir = numer1 / numer2;
+    console.log(dividir);
+  }
+  let number1 = parseFloat(prompt(" ingrese el primer numero"));
+  let number2 = parseFloat(prompt(" ingrese el segundo numero"));
+  dividir(num1, num2);
   
   // Llamar a la función principal
   calculadora();
