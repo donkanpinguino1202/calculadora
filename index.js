@@ -20,7 +20,13 @@ function calculadora() {
         num2
     );
   }
-  
+  function resta(numer1, numer2){
+    let restar = numer1 - numer2;
+    console.log(restar);
+  }
+  let num1 = parseFloat(prompt(" ingrese el primer numero"));
+  let num2 = parseFloat(prompt(" ingrese el segundo numero"));
+  resta(num1, num2);
   // Llamar a la función principal
   calculadora();
 
