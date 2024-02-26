@@ -53,6 +53,10 @@ function calculadora() {
   }
   let resultado = factorial (10);
   console.log (resultado); 
+
+  function exponente(numer1, numer2) {
+    return numer1 ** numer2
+  }
   
   // Llamar a la función principal
   calculadora();
