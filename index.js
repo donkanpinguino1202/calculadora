@@ -29,7 +29,7 @@ function calculadora() {
   resta(num1, num2);
   
   function multiplicar(numer1, numer2) {
-    let multiplicar = numer1 - numer2;
+    let multiplicar = numer1 * numer2;
     console.log(multiplicar);
   }
   let numer1 = parseFloat(prompt(" ingrese el primer numero"));
