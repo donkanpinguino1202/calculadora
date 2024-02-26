@@ -58,6 +58,9 @@ function calculadora() {
     return numer1 ** numer2
   }
   
+  function raiz(numero) {
+    return Math,sqrt(numero);
+  }
   // Llamar a la función principal
   calculadora();
   // Función para sumar dos números
